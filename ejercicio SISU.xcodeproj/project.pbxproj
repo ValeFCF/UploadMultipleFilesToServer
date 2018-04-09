@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B414DBF2075B31E00E0AE42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DBE2075B31E00E0AE42 /* AppDelegate.swift */; };
+		3B414DC12075B31E00E0AE42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DC02075B31E00E0AE42 /* ViewController.swift */; };
+		3B414DC42075B31E00E0AE42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B414DC22075B31E00E0AE42 /* Main.storyboard */; };
+		3B414DC62075B32000E0AE42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B414DC52075B32000E0AE42 /* Assets.xcassets */; };
+		3B414DC92075B32000E0AE42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B414DC72075B32000E0AE42 /* LaunchScreen.storyboard */; };
+		3B414DD42075B32000E0AE42 /* ejercicio_SISUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DD32075B32000E0AE42 /* ejercicio_SISUTests.swift */; };
+		3B414DDF2075B32000E0AE42 /* ejercicio_SISUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DDE2075B32000E0AE42 /* ejercicio_SISUUITests.swift */; };
+		3B414DED2075B55000E0AE42 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DEC2075B55000E0AE42 /* AlbumCell.swift */; };
+		3B414DEF2076BDC000E0AE42 /* NombreAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DEE2076BDC000E0AE42 /* NombreAlbumViewController.swift */; };
+		3B414DF12076C15200E0AE42 /* SeleccionFotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DF02076C15200E0AE42 /* SeleccionFotosViewController.swift */; };
+		3B414DF32076C72100E0AE42 /* FotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DF22076C72100E0AE42 /* FotoCollectionViewCell.swift */; };
+		3B414DF52076EA4E00E0AE42 /* OrdenarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DF42076EA4E00E0AE42 /* OrdenarViewController.swift */; };
+		3B414DF72076EE0300E0AE42 /* MovibleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B414DF62076EE0300E0AE42 /* MovibleCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B414DD02075B32000E0AE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B414DB32075B31E00E0AE42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B414DBA2075B31E00E0AE42;
+			remoteInfo = "ejercicio SISU";
+		};
+		3B414DDB2075B32000E0AE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B414DB32075B31E00E0AE42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B414DBA2075B31E00E0AE42;
+			remoteInfo = "ejercicio SISU";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B414DBB2075B31E00E0AE42 /* ejercicio SISU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ejercicio SISU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B414DBE2075B31E00E0AE42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B414DC02075B31E00E0AE42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B414DC32075B31E00E0AE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B414DC52075B32000E0AE42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B414DC82075B32000E0AE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B414DCA2075B32000E0AE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B414DCF2075B32000E0AE42 /* ejercicio SISUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ejercicio SISUTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B414DD32075B32000E0AE42 /* ejercicio_SISUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio_SISUTests.swift; sourceTree = "<group>"; };
+		3B414DD52075B32000E0AE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B414DDA2075B32000E0AE42 /* ejercicio SISUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ejercicio SISUUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B414DDE2075B32000E0AE42 /* ejercicio_SISUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejercicio_SISUUITests.swift; sourceTree = "<group>"; };
+		3B414DE02075B32000E0AE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B414DEC2075B55000E0AE42 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		3B414DEE2076BDC000E0AE42 /* NombreAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NombreAlbumViewController.swift; sourceTree = "<group>"; };
+		3B414DF02076C15200E0AE42 /* SeleccionFotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionFotosViewController.swift; sourceTree = "<group>"; };
+		3B414DF22076C72100E0AE42 /* FotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B414DF42076EA4E00E0AE42 /* OrdenarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenarViewController.swift; sourceTree = "<group>"; };
+		3B414DF62076EE0300E0AE42 /* MovibleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovibleCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B414DB82075B31E00E0AE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B414DCC2075B32000E0AE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B414DD72075B32000E0AE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B414DB22075B31E00E0AE42 = {
+			isa = PBXGroup;
+			children = (
+				3B414DBD2075B31E00E0AE42 /* ejercicio SISU */,
+				3B414DD22075B32000E0AE42 /* ejercicio SISUTests */,
+				3B414DDD2075B32000E0AE42 /* ejercicio SISUUITests */,
+				3B414DBC2075B31E00E0AE42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B414DBC2075B31E00E0AE42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B414DBB2075B31E00E0AE42 /* ejercicio SISU.app */,
+				3B414DCF2075B32000E0AE42 /* ejercicio SISUTests.xctest */,
+				3B414DDA2075B32000E0AE42 /* ejercicio SISUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B414DBD2075B31E00E0AE42 /* ejercicio SISU */ = {
+			isa = PBXGroup;
+			children = (
+				3B414DBE2075B31E00E0AE42 /* AppDelegate.swift */,
+				3B414DEC2075B55000E0AE42 /* AlbumCell.swift */,
+				3B414DC02075B31E00E0AE42 /* ViewController.swift */,
+				3B414DF62076EE0300E0AE42 /* MovibleCollectionViewCell.swift */,
+				3B414DEE2076BDC000E0AE42 /* NombreAlbumViewController.swift */,
+				3B414DF02076C15200E0AE42 /* SeleccionFotosViewController.swift */,
+				3B414DF42076EA4E00E0AE42 /* OrdenarViewController.swift */,
+				3B414DF22076C72100E0AE42 /* FotoCollectionViewCell.swift */,
+				3B414DC22075B31E00E0AE42 /* Main.storyboard */,
+				3B414DC52075B32000E0AE42 /* Assets.xcassets */,
+				3B414DC72075B32000E0AE42 /* LaunchScreen.storyboard */,
+				3B414DCA2075B32000E0AE42 /* Info.plist */,
+			);
+			path = "ejercicio SISU";
+			sourceTree = "<group>";
+		};
+		3B414DD22075B32000E0AE42 /* ejercicio SISUTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B414DD32075B32000E0AE42 /* ejercicio_SISUTests.swift */,
+				3B414DD52075B32000E0AE42 /* Info.plist */,
+			);
+			path = "ejercicio SISUTests";
+			sourceTree = "<group>";
+		};
+		3B414DDD2075B32000E0AE42 /* ejercicio SISUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B414DDE2075B32000E0AE42 /* ejercicio_SISUUITests.swift */,
+				3B414DE02075B32000E0AE42 /* Info.plist */,
+			);
+			path = "ejercicio SISUUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B414DBA2075B31E00E0AE42 /* ejercicio SISU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B414DE32075B32000E0AE42 /* Build configuration list for PBXNativeTarget "ejercicio SISU" */;
+			buildPhases = (
+				3B414DB72075B31E00E0AE42 /* Sources */,
+				3B414DB82075B31E00E0AE42 /* Frameworks */,
+				3B414DB92075B31E00E0AE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ejercicio SISU";
+			productName = "ejercicio SISU";
+			productReference = 3B414DBB2075B31E00E0AE42 /* ejercicio SISU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B414DCE2075B32000E0AE42 /* ejercicio SISUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B414DE62075B32000E0AE42 /* Build configuration list for PBXNativeTarget "ejercicio SISUTests" */;
+			buildPhases = (
+				3B414DCB2075B32000E0AE42 /* Sources */,
+				3B414DCC2075B32000E0AE42 /* Frameworks */,
+				3B414DCD2075B32000E0AE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B414DD12075B32000E0AE42 /* PBXTargetDependency */,
+			);
+			name = "ejercicio SISUTests";
+			productName = "ejercicio SISUTests";
+			productReference = 3B414DCF2075B32000E0AE42 /* ejercicio SISUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B414DD92075B32000E0AE42 /* ejercicio SISUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B414DE92075B32000E0AE42 /* Build configuration list for PBXNativeTarget "ejercicio SISUUITests" */;
+			buildPhases = (
+				3B414DD62075B32000E0AE42 /* Sources */,
+				3B414DD72075B32000E0AE42 /* Frameworks */,
+				3B414DD82075B32000E0AE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B414DDC2075B32000E0AE42 /* PBXTargetDependency */,
+			);
+			name = "ejercicio SISUUITests";
+			productName = "ejercicio SISUUITests";
+			productReference = 3B414DDA2075B32000E0AE42 /* ejercicio SISUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B414DB32075B31E00E0AE42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Emmanuel Valentín Granados López";
+				TargetAttributes = {
+					3B414DBA2075B31E00E0AE42 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					3B414DCE2075B32000E0AE42 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3B414DBA2075B31E00E0AE42;
+					};
+					3B414DD92075B32000E0AE42 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3B414DBA2075B31E00E0AE42;
+					};
+				};
+			};
+			buildConfigurationList = 3B414DB62075B31E00E0AE42 /* Build configuration list for PBXProject "ejercicio SISU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B414DB22075B31E00E0AE42;
+			productRefGroup = 3B414DBC2075B31E00E0AE42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B414DBA2075B31E00E0AE42 /* ejercicio SISU */,
+				3B414DCE2075B32000E0AE42 /* ejercicio SISUTests */,
+				3B414DD92075B32000E0AE42 /* ejercicio SISUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B414DB92075B31E00E0AE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B414DC92075B32000E0AE42 /* LaunchScreen.storyboard in Resources */,
+				3B414DC62075B32000E0AE42 /* Assets.xcassets in Resources */,
+				3B414DC42075B31E00E0AE42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B414DCD2075B32000E0AE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B414DD82075B32000E0AE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B414DB72075B31E00E0AE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B414DF32076C72100E0AE42 /* FotoCollectionViewCell.swift in Sources */,
+				3B414DF52076EA4E00E0AE42 /* OrdenarViewController.swift in Sources */,
+				3B414DC12075B31E00E0AE42 /* ViewController.swift in Sources */,
+				3B414DEF2076BDC000E0AE42 /* NombreAlbumViewController.swift in Sources */,
+				3B414DF12076C15200E0AE42 /* SeleccionFotosViewController.swift in Sources */,
+				3B414DBF2075B31E00E0AE42 /* AppDelegate.swift in Sources */,
+				3B414DED2075B55000E0AE42 /* AlbumCell.swift in Sources */,
+				3B414DF72076EE0300E0AE42 /* MovibleCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B414DCB2075B32000E0AE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B414DD42075B32000E0AE42 /* ejercicio_SISUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B414DD62075B32000E0AE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B414DDF2075B32000E0AE42 /* ejercicio_SISUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B414DD12075B32000E0AE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B414DBA2075B31E00E0AE42 /* ejercicio SISU */;
+			targetProxy = 3B414DD02075B32000E0AE42 /* PBXContainerItemProxy */;
+		};
+		3B414DDC2075B32000E0AE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B414DBA2075B31E00E0AE42 /* ejercicio SISU */;
+			targetProxy = 3B414DDB2075B32000E0AE42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B414DC22075B31E00E0AE42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B414DC32075B31E00E0AE42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B414DC72075B32000E0AE42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B414DC82075B32000E0AE42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B414DE12075B32000E0AE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B414DE22075B32000E0AE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B414DE42075B32000E0AE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ejercicio SISU/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ejercicio-SISU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B414DE52075B32000E0AE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ejercicio SISU/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ejercicio-SISU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B414DE72075B32000E0AE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ejercicio SISUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ejercicio-SISUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ejercicio SISU.app/ejercicio SISU";
+			};
+			name = Debug;
+		};
+		3B414DE82075B32000E0AE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ejercicio SISUTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ejercicio-SISUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ejercicio SISU.app/ejercicio SISU";
+			};
+			name = Release;
+		};
+		3B414DEA2075B32000E0AE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ejercicio SISUUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ejercicio-SISUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ejercicio SISU";
+			};
+			name = Debug;
+		};
+		3B414DEB2075B32000E0AE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ejercicio SISUUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.ejercicio-SISUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ejercicio SISU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B414DB62075B31E00E0AE42 /* Build configuration list for PBXProject "ejercicio SISU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B414DE12075B32000E0AE42 /* Debug */,
+				3B414DE22075B32000E0AE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B414DE32075B32000E0AE42 /* Build configuration list for PBXNativeTarget "ejercicio SISU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B414DE42075B32000E0AE42 /* Debug */,
+				3B414DE52075B32000E0AE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B414DE62075B32000E0AE42 /* Build configuration list for PBXNativeTarget "ejercicio SISUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B414DE72075B32000E0AE42 /* Debug */,
+				3B414DE82075B32000E0AE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B414DE92075B32000E0AE42 /* Build configuration list for PBXNativeTarget "ejercicio SISUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B414DEA2075B32000E0AE42 /* Debug */,
+				3B414DEB2075B32000E0AE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B414DB32075B31E00E0AE42 /* Project object */;
+}
